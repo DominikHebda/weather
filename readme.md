@@ -9,3 +9,5 @@ Technology stack:
     - Indented item
     - Indented item
 - Css
+
+Project live: [click here](https://dominikhebda.github.io/weather/)
