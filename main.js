@@ -44,7 +44,13 @@ cityForm.addEventListener('submit', (event) => {
 
                 view += `</div>`
 
+                view += `<div class="weather__info">`
+                view += `<div class="weather__desc2">
+                    <p class="weather__text" > Local time: ${dataFromAPI.location.localtime}</p >
+                    <p class="weather__text">Wind direction: ${dataFromAPI.current.wind_dir}</p >
+                </div >`
 
+                view += `</div>`
 
 
                 apiView.innerHTML = view
